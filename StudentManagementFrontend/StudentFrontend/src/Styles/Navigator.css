@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f4f8;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigator-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.navigator-title {
+    color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+/* Left-side Add Student */
+.add-student-card {
+  flex: 0 0 200px;
+}
+
+/* Right section with two rows */
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.card-row {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+/* Card styles */
+.card-link {
+  text-decoration: none;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  width: 160px;
+  height: 160px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.card.large {
+  height: 420px;
+  width: 200px;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #34495e;
+  text-align: center;
+}

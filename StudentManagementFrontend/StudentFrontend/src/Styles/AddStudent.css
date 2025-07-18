@@ -1,0 +1,77 @@
+.add-student-container {
+  width: 100%;
+  margin-right: 400px;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.add-student-container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #222;
+  font-size: 28px;
+}
+
+.add-student-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+  font-size: 16px;
+}
+
+.add-student-container input {
+  width: 98%;
+  padding: 10px;
+  margin-bottom: 22px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 15px;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+  color: black;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}
+
+.add-student-container input:focus {
+  border-color: #007bff;
+  outline: none;
+  background-color: #f0f8ff;
+  color: black;
+}
+
+.add-student-container button {
+  width: 100%;
+  padding: 14px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-student-container button:hover {
+  background-color: #0056b3;
+}
+
+.message {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 500;
+  color: green;
+}
