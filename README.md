@@ -46,3 +46,46 @@ package com.example.StudentManagementBackend;
 public class StudentController {
     // Endpoints for CRUD and search operations
 }
+
+#### 📌 Main Endpoints:
+- `POST /addStudent`
+- `GET /getAllStudents`
+- `GET /getById/{id}`
+- `DELETE /deleteById/{id}`
+- `PUT /updateStudent`
+- `GET /findByName/{name}`
+- `GET /findBySubString/{str}`
+
+> ⚠️ Make sure your MySQL DB is running and configured properly in `application.properties`.
+
+---
+
+### 🌐 Frontend - `StudentManagementFrontend`
+
+#### Technologies:
+- React.js
+- React Router DOM
+- Axios
+- React Toastify
+- Hooks (`useState`, `useEffect`)
+
+#### 📦 Structure:
+Each backend API is connected to a separate React component:
+- Adding a student
+- Listing all students
+- Viewing student by ID
+- Updating student details
+- Deleting a student
+- Searching by name or substring
+
+#### ▶️ Run Frontend:
+```bash
+cd StudentManagementFrontend
+npm install
+npm run dev
+
+
+
+https://github.com/user-attachments/assets/bafc1eef-cdbd-45b4-9dd6-90a56f3126df
+
+
