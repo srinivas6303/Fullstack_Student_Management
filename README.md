@@ -46,6 +46,7 @@ package com.example.StudentManagementBackend;
 public class StudentController {
     // Endpoints for CRUD and search operations
 }
+```
 
 #### 📌 Main Endpoints:
 - `POST /addStudent`
