@@ -84,9 +84,7 @@ Each backend API is connected to a separate React component:
 cd StudentManagementFrontend
 npm install
 npm run dev
-
-
-
+```
 https://github.com/user-attachments/assets/bafc1eef-cdbd-45b4-9dd6-90a56f3126df
 
 
